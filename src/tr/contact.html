@@ -1,0 +1,432 @@
+{{> tr/head pageTitle="İletişim" metaDescription="Bayes Soft ile iletişime geçin. Dijital sistemleriniz, otomasyon veya
+yazılım geliştirme projenizi görüşmek için İstanbul, Türkiye'deki ekibimize ulaşın."}}
+
+{{> tr/header}}
+
+<main id="main-content" class="flex-1">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-secondary-50 to-white py-16 md:py-24">
+    <div class="container-wide">
+      <div class="max-w-3xl">
+        <span class="badge-primary mb-6">Bize Ulaşın</span>
+        <h1 class="text-secondary-900 mb-6">
+          <span class="text-gradient">Projenizi</span> Görüşelim
+        </h1>
+        <p class="text-xl text-secondary-600 leading-relaxed">
+          Aklınızda belirli bir proje olsun ya da nasıl yardımcı olabileceğimizi keşfetmek isteyin,
+          konuşmaktan mutluluk duyarız. Satış baskısı yok—sadece ihtiyaçlarınız ve bunları
+          nasıl karşılayabileceğimiz üzerine dürüst bir görüşme.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info Section -->
+  <section class="section bg-white">
+    <div class="container-wide">
+      <div class="grid lg:grid-cols-5 gap-16">
+        <!-- Contact Form -->
+        <div class="lg:col-span-3">
+          <h2 class="text-2xl font-bold text-secondary-900 mb-6">Bize Mesaj Gönderin</h2>
+          <p class="text-secondary-600 mb-8">
+            Projenizden bahsedin veya soru sorun. Genellikle bir iş günü içinde
+            yanıt veriyoruz.
+          </p>
+
+          <form id="contact-form" class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="firstName" class="block text-sm font-medium text-secondary-700 mb-2">
+                  Ad <span class="text-red-500">*</span>
+                </label>
+                <input type="text" id="firstName" name="firstName" required class="input" placeholder="Adınız">
+              </div>
+              <div>
+                <label for="lastName" class="block text-sm font-medium text-secondary-700 mb-2">
+                  Soyad <span class="text-red-500">*</span>
+                </label>
+                <input type="text" id="lastName" name="lastName" required class="input" placeholder="Soyadınız">
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="email" class="block text-sm font-medium text-secondary-700 mb-2">
+                  E-posta Adresi <span class="text-red-500">*</span>
+                </label>
+                <input type="email" id="email" name="email" required class="input" placeholder="adiniz@sirket.com">
+              </div>
+              <div>
+                <label for="phone" class="block text-sm font-medium text-secondary-700 mb-2">
+                  Telefon Numarası
+                </label>
+                <input type="tel" id="phone" name="phone" class="input" placeholder="+90 XXX XXX XX XX">
+              </div>
+            </div>
+
+            <div>
+              <label for="company" class="block text-sm font-medium text-secondary-700 mb-2">
+                Şirket / Kuruluş
+              </label>
+              <input type="text" id="company" name="company" class="input" placeholder="Şirketinizin adı">
+            </div>
+
+            <div>
+              <label for="projectType" class="block text-sm font-medium text-secondary-700 mb-2">
+                Ne tür bir proje düşünüyorsunuz?
+              </label>
+              <select id="projectType" name="projectType" class="input">
+                <option value="">Bir proje türü seçin</option>
+                <option value="healthcare">Sağlık Sistemleri</option>
+                <option value="ecommerce">E-ticaret ve Operasyonlar</option>
+                <option value="sme">KOBİ Dijital Dönüşümü</option>
+                <option value="ai">Yapay Zeka ve Makine Öğrenimi</option>
+                <option value="mobile">Mobil Uygulamalar</option>
+                <option value="iot">IoT ve Akıllı Sistemler</option>
+                <option value="other">Diğer / Emin Değilim</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="budget" class="block text-sm font-medium text-secondary-700 mb-2">
+                Yaklaşık Bütçe Aralığı
+              </label>
+              <select id="budget" name="budget" class="input">
+                <option value="">Bir aralık seçin</option>
+                <option value="under-50k">50.000$ altı</option>
+                <option value="50k-100k">50.000$ - 100.000$</option>
+                <option value="100k-250k">100.000$ - 250.000$</option>
+                <option value="250k-500k">250.000$ - 500.000$</option>
+                <option value="over-500k">500.000$ üzeri</option>
+                <option value="not-sure">Henüz emin değilim</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-medium text-secondary-700 mb-2">
+                Projenizden bahsedin <span class="text-red-500">*</span>
+              </label>
+              <textarea id="message" name="message" rows="5" required class="input resize-none"
+                placeholder="Neyi başarmaya çalıştığınızı, karşılaştığınız özel zorlukları ve sizin için başarılı bir sonucun nasıl görüneceğini açıklayın."></textarea>
+            </div>
+
+            <div>
+              <label for="timeline" class="block text-sm font-medium text-secondary-700 mb-2">
+                Zaman çizelgeniz nedir?
+              </label>
+              <select id="timeline" name="timeline" class="input">
+                <option value="">Bir zaman çizelgesi seçin</option>
+                <option value="asap">En kısa sürede</option>
+                <option value="1-3months">1-3 ay</option>
+                <option value="3-6months">3-6 ay</option>
+                <option value="6months+">6+ ay</option>
+                <option value="exploring">Sadece seçenekleri keşfediyorum</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="source" class="block text-sm font-medium text-secondary-700 mb-2">
+                Bizi nereden duydunuz?
+              </label>
+              <select id="source" name="source" class="input">
+                <option value="">Bir seçenek seçin</option>
+                <option value="search">Arama motoru</option>
+                <option value="referral">Bir arkadaştan tavsiye</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="event">Konferans veya etkinlik</option>
+                <option value="article">Makale veya blog yazısı</option>
+                <option value="other">Diğer</option>
+              </select>
+            </div>
+
+            <div class="pt-4">
+              <button type="submit" class="btn btn-primary w-full md:w-auto">
+                Mesaj Gönder
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Info Sidebar -->
+        <div class="lg:col-span-2">
+          <div class="sticky top-8 space-y-8">
+            <!-- Direct Contact -->
+            <div class="bg-secondary-50 rounded-2xl p-8">
+              <h3 class="text-xl font-semibold text-secondary-900 mb-6">Doğrudan İletişim</h3>
+
+              <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-sm text-secondary-500 mb-1">E-posta</p>
+                    <a href="mailto:{{email}}" class="text-primary-600 hover:text-primary-700 font-medium">
+                      {{email}}
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-sm text-secondary-500 mb-1">Telefon</p>
+                    <a href="tel:{{phone}}" class="text-primary-600 hover:text-primary-700 font-medium">
+                      {{phone}}
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-sm text-secondary-500 mb-1">Ofis</p>
+                    <address class="text-secondary-700 not-italic">
+                      {{address}}
+                    </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="bg-white border border-secondary-200 rounded-2xl p-8">
+              <h3 class="text-xl font-semibold text-secondary-900 mb-6">Çalışma Saatleri</h3>
+              <div class="space-y-3">
+                <div class="flex justify-between">
+                  <span class="text-secondary-600">Pazartesi - Cuma</span>
+                  <span class="font-medium text-secondary-900">9:00 - 18:00</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-secondary-600">Cumartesi</span>
+                  <span class="font-medium text-secondary-900">10:00 - 14:00</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-secondary-600">Pazar</span>
+                  <span class="font-medium text-secondary-900">Kapalı</span>
+                </div>
+              </div>
+              <p class="text-sm text-secondary-500 mt-4">
+                Tüm saatler Türkiye Saati (TRT, UTC+3) ile verilmiştir.
+              </p>
+            </div>
+
+            <!-- Response Time -->
+            <div class="bg-primary-50 rounded-2xl p-8">
+              <div class="flex items-center space-x-3 mb-4">
+                <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h3 class="text-lg font-semibold text-secondary-900">Hızlı Yanıt</h3>
+              </div>
+              <p class="text-secondary-600 text-sm">
+                İş günlerinde tüm sorulara 24 saat içinde yanıt vermeyi hedefliyoruz.
+                Acil konular için lütfen bizi doğrudan arayın.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What to Expect Section -->
+  <section class="section bg-secondary-50">
+    <div class="container-wide">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold text-secondary-900 mb-6">Ne Beklemelisiniz</h2>
+        <p class="text-lg text-secondary-600">
+          Bize ulaştıktan sonra ne olacağı aşağıda açıklanmıştır.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Step 1 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            1
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">İlk Yanıt</h3>
+          <p class="text-secondary-600 text-sm">
+            Mesajınızı 24 saat içinde yanıtlayacağız ve gerekirse durumunuzu daha iyi
+            anlamak için netleştirici sorular soracağız.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            2
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">Keşif Görüşmesi</h3>
+          <p class="text-secondary-600 text-sm">
+            İhtiyaçlarınızı ayrıntılı olarak tartışmak için 30-45 dakikalık bir görüşme ayarlayacağız.
+            Taahhüt gerekmez—bu sadece keşif amaçlı bir görüşmedir.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            3
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">İlk Değerlendirme</h3>
+          <p class="text-secondary-600 text-sm">
+            Görüşmemize dayanarak; yaklaşım, zaman çizelgesi ve bütçe aralığı hakkındaki
+            ön düşüncelerimizi paylaşacağız—veya doğru seçim değilsek size bunu dürüstçe söyleyeceğiz.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            4
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">Resmi Teklif</h3>
+          <p class="text-secondary-600 text-sm">
+            Eğer her iki taraf da uygun olduğumuza karar verirse; kapsamı, zaman çizelgesini,
+            maliyeti ve şartları özetleyen detaylı bir teklif hazırlayacağız.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section bg-white">
+    <div class="container-wide">
+      <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold text-secondary-900 mb-6">Sıkça Sorulan Sorular</h2>
+        </div>
+
+        <div class="space-y-4">
+          <!-- FAQ Item 1 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">Ne büyüklükteki projeleri kabul ediyorsunuz?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                Genellikle 50.000$ ile 500.000$+ arasında değişen bütçelere ve 3 ile 18 ay
+                arasında değişen zaman çizelgelerine sahip projeler üzerinde çalışıyoruz. Daha
+                küçük projeler için, daha uygun olabilecek güvenilir ortaklar önermekten
+                mutluluk duyarız.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">Türkiye dışındaki müşterilerle çalışıyor musunuz?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                Evet, Avrupa, Orta Doğu ve ara sıra Kuzey Amerika'daki müşterilerle
+                çalışıyoruz. Uzaktan işbirliği konusunda deneyimliyiz ve farklı zaman
+                dilimlerinde etkili çalışmayı sağlayacak süreçlere sahibiz.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">Bizim inşa etmediğimiz mevcut sistemlerin bakımına yardımcı
+                olabilir misiniz?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                Bazen. Bu, mevcut kod tabanının ve belgelendirmenin kalitesine bağlıdır.
+                Sistemi değerlendirir ve bakımına devam etmenin mi yoksa uzun vadede yeniden
+                inşa etmenin mi daha az maliyetli olacağı konusunda size dürüst fikrimizi söyleriz.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">Fiyatlandırma modeliniz nedir?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                İyi tanımlanmış projeler için genellikle net aşamaları ve ödeme planları
+                olan sabit fiyatlı sözleşmelerle çalışıyoruz. Devam eden işler veya
+                gelişen gereksinimleri olan projeler için, üzerinde anlaşılan aylık
+                üst limitleri olan zaman ve malzeme bazlı anlaşmalar sunuyoruz.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">Fikri mülkiyeti nasıl ele alıyorsunuz?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                Projeniz için yazdığımız tüm özel kodlar size aittir. Yalnızca,
+                sözleşmelerimizde açıkça belirtilen önceden var olan araçlarımız ve
+                iskelet yapılarımız üzerindeki haklarımızı saklı tutuyoruz. Sizin
+                için özel olarak inşa ettiğimiz her şey için tam mülkiyete ve
+                kaynak kodu erişimine sahip olacaksınız.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{> tr/footer}}
+
+<script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

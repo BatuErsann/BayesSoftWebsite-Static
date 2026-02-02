@@ -1,0 +1,430 @@
+{{> en/head pageTitle="Contact" metaDescription="Contact Bayes Digital for custom digital systems and automation
+solutions. Based in Maslak, Istanbul, Turkey."}}
+
+{{> en/header}}
+
+<main id="main-content" class="flex-1">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-secondary-50 to-white py-16 md:py-24">
+    <div class="container-wide">
+      <div class="max-w-3xl">
+        <span class="badge-primary mb-6">Get In Touch</span>
+        <h1 class="text-secondary-900 mb-6">
+          Let's Discuss <span class="text-gradient">Your Project</span>
+        </h1>
+        <p class="text-xl text-secondary-600 leading-relaxed">
+          Whether you have a specific project in mind or want to explore how we can help,
+          we're happy to talk. No sales pressure—just an honest conversation about your
+          needs and how we might address them.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info Section -->
+  <section class="section bg-white">
+    <div class="container-wide">
+      <div class="grid lg:grid-cols-5 gap-16">
+        <!-- Contact Form -->
+        <div class="lg:col-span-3">
+          <h2 class="text-2xl font-bold text-secondary-900 mb-6">Send Us a Message</h2>
+          <p class="text-secondary-600 mb-8">
+            Tell us about your project or ask a question. We typically respond
+            within one business day.
+          </p>
+
+          <form id="contact-form" class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="firstName" class="block text-sm font-medium text-secondary-700 mb-2">
+                  First Name <span class="text-red-500">*</span>
+                </label>
+                <input type="text" id="firstName" name="firstName" required class="input" placeholder="Your first name">
+              </div>
+              <div>
+                <label for="lastName" class="block text-sm font-medium text-secondary-700 mb-2">
+                  Last Name <span class="text-red-500">*</span>
+                </label>
+                <input type="text" id="lastName" name="lastName" required class="input" placeholder="Your last name">
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="email" class="block text-sm font-medium text-secondary-700 mb-2">
+                  Email Address <span class="text-red-500">*</span>
+                </label>
+                <input type="email" id="email" name="email" required class="input" placeholder="you@company.com">
+              </div>
+              <div>
+                <label for="phone" class="block text-sm font-medium text-secondary-700 mb-2">
+                  Phone Number
+                </label>
+                <input type="tel" id="phone" name="phone" class="input" placeholder="+90 XXX XXX XX XX">
+              </div>
+            </div>
+
+            <div>
+              <label for="company" class="block text-sm font-medium text-secondary-700 mb-2">
+                Company / Organization
+              </label>
+              <input type="text" id="company" name="company" class="input" placeholder="Your company name">
+            </div>
+
+            <div>
+              <label for="projectType" class="block text-sm font-medium text-secondary-700 mb-2">
+                What type of project are you considering?
+              </label>
+              <select id="projectType" name="projectType" class="input">
+                <option value="">Select a project type</option>
+                <option value="healthcare">Healthcare Systems</option>
+                <option value="ecommerce">E-commerce & Operations</option>
+                <option value="sme">SME Digital Transformation</option>
+                <option value="ai">AI & Machine Learning</option>
+                <option value="mobile">Mobile Applications</option>
+                <option value="iot">IoT & Smart Systems</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="budget" class="block text-sm font-medium text-secondary-700 mb-2">
+                Approximate Budget Range
+              </label>
+              <select id="budget" name="budget" class="input">
+                <option value="">Select a range</option>
+                <option value="under-50k">Under $50,000</option>
+                <option value="50k-100k">$50,000 - $100,000</option>
+                <option value="100k-250k">$100,000 - $250,000</option>
+                <option value="250k-500k">$250,000 - $500,000</option>
+                <option value="over-500k">Over $500,000</option>
+                <option value="not-sure">Not sure yet</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-medium text-secondary-700 mb-2">
+                Tell us about your project <span class="text-red-500">*</span>
+              </label>
+              <textarea id="message" name="message" rows="5" required class="input resize-none"
+                placeholder="Describe what you're trying to achieve, any specific challenges you're facing, and what a successful outcome would look like for you."></textarea>
+            </div>
+
+            <div>
+              <label for="timeline" class="block text-sm font-medium text-secondary-700 mb-2">
+                What's your timeline?
+              </label>
+              <select id="timeline" name="timeline" class="input">
+                <option value="">Select a timeline</option>
+                <option value="asap">As soon as possible</option>
+                <option value="1-3months">1-3 months</option>
+                <option value="3-6months">3-6 months</option>
+                <option value="6months+">6+ months</option>
+                <option value="exploring">Just exploring options</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="source" class="block text-sm font-medium text-secondary-700 mb-2">
+                How did you hear about us?
+              </label>
+              <select id="source" name="source" class="input">
+                <option value="">Select an option</option>
+                <option value="search">Search engine</option>
+                <option value="referral">Referral from a friend</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="event">Conference or event</option>
+                <option value="article">Article or blog post</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="pt-4">
+              <button type="submit" class="btn btn-primary w-full md:w-auto">
+                Send Message
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Info Sidebar -->
+        <div class="lg:col-span-2">
+          <div class="sticky top-8 space-y-8">
+            <!-- Direct Contact -->
+            <div class="bg-secondary-50 rounded-2xl p-8">
+              <h3 class="text-xl font-semibold text-secondary-900 mb-6">Direct Contact</h3>
+
+              <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-sm text-secondary-500 mb-1">Email</p>
+                    <a href="mailto:{{email}}" class="text-primary-600 hover:text-primary-700 font-medium">
+                      {{email}}
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-sm text-secondary-500 mb-1">Phone</p>
+                    <a href="tel:{{phone}}" class="text-primary-600 hover:text-primary-700 font-medium">
+                      {{phone}}
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start space-x-4">
+                  <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-sm text-secondary-500 mb-1">Office</p>
+                    <address class="text-secondary-700 not-italic">
+                      {{address}}
+                    </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="bg-white border border-secondary-200 rounded-2xl p-8">
+              <h3 class="text-xl font-semibold text-secondary-900 mb-6">Office Hours</h3>
+              <div class="space-y-3">
+                <div class="flex justify-between">
+                  <span class="text-secondary-600">Monday - Friday</span>
+                  <span class="font-medium text-secondary-900">9:00 - 18:00</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-secondary-600">Saturday</span>
+                  <span class="font-medium text-secondary-900">10:00 - 14:00</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-secondary-600">Sunday</span>
+                  <span class="font-medium text-secondary-900">Closed</span>
+                </div>
+              </div>
+              <p class="text-sm text-secondary-500 mt-4">
+                All times are in Turkey Time (TRT, UTC+3).
+              </p>
+            </div>
+
+            <!-- Response Time -->
+            <div class="bg-primary-50 rounded-2xl p-8">
+              <div class="flex items-center space-x-3 mb-4">
+                <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h3 class="text-lg font-semibold text-secondary-900">Quick Response</h3>
+              </div>
+              <p class="text-secondary-600 text-sm">
+                We aim to respond to all inquiries within 24 hours on business days.
+                For urgent matters, please call us directly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What to Expect Section -->
+  <section class="section bg-secondary-50">
+    <div class="container-wide">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold text-secondary-900 mb-6">What to Expect</h2>
+        <p class="text-lg text-secondary-600">
+          Here's what happens after you reach out to us.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Step 1 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            1
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">Initial Response</h3>
+          <p class="text-secondary-600 text-sm">
+            We'll respond to your message within 24 hours, asking clarifying questions
+            if needed to better understand your situation.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            2
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">Discovery Call</h3>
+          <p class="text-secondary-600 text-sm">
+            We'll schedule a 30-45 minute call to discuss your needs in detail.
+            No commitment required—this is purely exploratory.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            3
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">Initial Assessment</h3>
+          <p class="text-secondary-600 text-sm">
+            Based on our conversation, we'll share our initial thoughts on approach,
+            timeline, and budget range—or honestly tell you if we're not the right fit.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+            4
+          </div>
+          <h3 class="text-lg font-semibold text-secondary-900 mb-3">Formal Proposal</h3>
+          <p class="text-secondary-600 text-sm">
+            If both parties decide we're a good fit, we'll prepare a detailed proposal
+            outlining scope, timeline, cost, and terms.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section bg-white">
+    <div class="container-wide">
+      <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold text-secondary-900 mb-6">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="space-y-4">
+          <!-- FAQ Item 1 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">What size projects do you take on?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                We typically work on projects with budgets ranging from $50,000 to $500,000+ and
+                timelines of 3 to 18 months. For smaller projects, we're happy to recommend
+                trusted partners who may be a better fit.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">Do you work with clients outside Turkey?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                Yes, we work with clients across Europe, the Middle East, and occasionally
+                North America. We're experienced in remote collaboration and have processes
+                that ensure effective work across different time zones.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">Can you help maintain existing systems you didn't
+                build?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                Sometimes. It depends on the quality of the existing codebase and documentation.
+                We'll assess the system and give you our honest opinion on whether it's more
+                cost-effective to maintain it or rebuild in the long run.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">What's your pricing model?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                For well-defined projects, we typically work on fixed-price contracts with
+                clear milestones and payment schedules. For ongoing work or projects with
+                evolving requirements, we offer time-and-materials agreements with agreed
+                monthly caps.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="accordion bg-secondary-50 rounded-xl">
+            <button class="accordion-header w-full flex items-center justify-between p-6 text-left">
+              <span class="font-semibold text-secondary-900">How do you handle intellectual property?</span>
+              <svg class="accordion-icon w-5 h-5 text-secondary-500 transform transition-transform" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="accordion-content px-6 pb-6 hidden">
+              <p class="text-secondary-600">
+                All custom code we write for your project belongs to you. We only retain
+                rights to our pre-existing tools and frameworks, which are clearly identified
+                in our contracts. You'll have full ownership and source code access to
+                everything we build specifically for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{> en/footer}}
+
+<script type="module" src="../js/main.js"></script>
+</body>
+
+</html>
